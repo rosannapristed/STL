@@ -1,0 +1,64 @@
+
+.modal_dialog {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+}
+
+.modal_indhold {
+    position: absolute;
+    border: 1px solid #888;
+    padding: 10px;
+    font-family: Avenir, sans-serif;
+}
+
+.close {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    color: #343232;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.knappanel {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    align-items: center;
+      transform: translate(-40%, -50%);
+
+    background: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    font-size: 1.3em;
+        cursor: pointer;
+        font-weight: 100;
+        font-family: avenir;
+        border: solid 1px;
+        border-color: #343232;
+
+
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        cursor: hand;
+    z-index: 3;
+}
+
+.knapper {
+    width: 20em;
+    height: 25px;
+    margin:0 auto;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+

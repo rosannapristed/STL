@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set The Label</title>
+    <!--udfyld content med en beskrivelse af sidens indhold - unik for hver side - op til ca. 155 karakterer-->
+    <meta name="description" content="Matching sets for every body. Set the labels designs comfortable outfits to go with everything. Take a look - we launch in september 2020, and we can't wait.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/faviconstl.ico">
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <header>
+        <div class="fane">
+            <p></p>
+        </div>
+
+        <a id="top"></a>
+
+
+        <nav>
+            <div id="logo-burger">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <label for="toggle">&#9776;</label>
+            </div>
+            <!--dette er en checkbox som gør det muligt at folde burgermenuen ud, og den skal ligge udenfor de to divs-->
+            <input type="checkbox" id="toggle" class="hidden">
+
+            <div id="main-nav">
+                <a href="#vision">
+                    <p>VISION</p>
+                </a>
+                <a href="#sign up">
+                    <p>SIGN UP</p>
+                </a>
+                <a href="#følg med">
+                    <p>FØLG MED</p>
+                </a>
+
+            </div>
+        </nav>
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="vision">VISION</a>
+                    <a href="sign up">SIGN UP</a>
+                    <a href="følg med">FØLG MED</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <img id ="img1" src="images/intropicstl.png" alt="forside1" style="width:100%;">
+
+         <img id="img2" src="images/forside.png" alt="forsidebillede">
+
+        <div class="content">
+            <h1>WEBSHOP COMING SOON...</h1>
+            <h5>Tilmeld dig vores nyhedsbrev og få 10% på din første ordre!</h5> <a href="#sign up"><button class="button">SIGN UP</button></a>
+        </div>
+    </div>
+
+    <div class="container1">
+        <h3 id="vision">VI LANCERER OM...</h3>
+        <ul id="count">
+            <li><span id="days"></span>dage</li>
+            <li><span id="hours"></span>timer</li>
+            <li><span id="minutes"></span>min.</li>
+            <li><span id="seconds"></span>sek.</li>
+        </ul>
+    </div>
+
+
+
+    <div class="container2">
+        <h3>VISION</h3>
+        <h4>SET THE LABEL IS HERE TO MAKE YOUR EVERYDAY CLOTHING CHOICE EASIER WITH HIGH QUALITY MATCHING SETS</h4>
+        <p><img src="images/vision.png" alt="vision"><br>Til september 2020 lancerer vi vores aller første kollektion, og vi glæder os helt vildt til at dele den med jer. <br><br>Vi vil lave matchende sæt, som er enkelte, neutrale og komfortable, og som passer til enhver kvindekrop. Vores kollektioner består af tre outfits, og der udkommer fire kollektioner om året. <br><br> Vi har sat os for at løse de utallige tøjkriser, der hver dag opstår. Idéen bygger på en tanke om, at I skal føle jer tilpas i det, I har på. Komfort, selvtillid og girlpower er vores keywords.</p>
+    </div>
+
+    <div class="values" id="valuepakke">
+        <img src="images/threegirlssetthelabel.png" alt="three girls standing together, set the label">
+
+        <div id="typedtext"></div>
+
+        <!--<p>"WE BELIEVE THAT ALL BODIES ARE GOOD BODIES.<br> YOU SHOULD TOO!"</p>-->
+    </div>
+
+
+    <div class="container3">
+        <h3 id="sign up">SIGN UP</h3>
+
+        <h4>BLIV EN DEL AF VORES UNIVERS OG MODTAG SNEAK PEAKS, PÅMINDELSER, NYHEDSBREVE OG 10% PÅ DIN FØRSTE ORDRE!</h4>
+
+        <div class="con3">
+            <img class="a" src="images/pigerstlingenbaggrund.png" alt="syv piger der står sammen på to rækker, set the label">
+
+            <p class="b">Vi ville elske at byde dig velkommen i vores community - og hvis du er lige så spændt på lanceringen, som vi er, så tilmeld dig til vores nyhedsbrev. </p>
+            <div class="xlille"></div>
+
+            <div class="q">
+                <!-- multistep form -->
+                <form id="msform">
+                    <!-- progressbar -->
+
+
+
+                    <!-- fieldsets -->
+                    <fieldset>
+
+
+                        <input type="text" name="name" placeholder="NAVN" />
+                        <input type="text" name="EMAL" placeholder="EMAIL" />
+
+                        <input onclick="myFunction()" type="button" name="sign up" class="next action-button" value="SIGN UP" />
+                        <p id="demo"></p>
+
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container4">
+        <h3 id="følg med">FØLG MED</h3>
+        <a href="https://www.instagram.com/setthelabel/?hl=da"><h4>most recent posts - instagram @setthelabel</h4></a>
+
+
+        <!--target="_blank" er tilføjet efter hvert link, så linket åbner i en ny fane. På denne måde ledes brugeren ikke helt væk fra siden, og kan nemt fortryde klikket uden ændring a lokation på det oprindelige site.-->
+<div id="gallery">
+    <a href="https://www.instagram.com/p/CAZ8K6XDX6i/" target="_blank"><img src="images/stlinsta1.png" alt="the most recent instagram post from set the label"></a>
+
+    <a href="https://www.instagram.com/p/CAXHeRyjurY/" target="_blank"><img src="images/stlinsta2.png" alt="the second most recent instagram post from set the label"></a>
+
+    <a href="https://www.instagram.com/p/CAV9sQhj8Jm/" target="_blank"><img src="images/stlinsta3.png" alt="the third most recent instagram post from set the label"></a>
+
+
+
+
+        </div>
+    </div>
+    <footer>
+        <div class="grid-row">
+            <a href="https://www.instagram.com/setthelabel/">
+                <img id="1" src="images/instagram.png" alt="link til set the label på instagram"></a>
+
+            <a href="https://www.facebook.com/setthelabel/">
+                <img id="2" src="images/facebook.png" alt="link til set the label på facebook">
+            </a>
+
+            <a href="https://www.twitter.com/setthelabel/">
+                <img id="3" src="images/twitter.png" alt="link til set the label på twitter"> </a>
+            <p> CONTACT@SETTHELABEL.COM <br> +4591929394 </p>
+        </div>
+
+    </footer>
+
+
+
+    <script src="mitscript.js"></script>
+    <script src="popup.js"></script>
+</body></html>
